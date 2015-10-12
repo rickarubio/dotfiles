@@ -70,6 +70,9 @@ let g:airline_powerline_fonts=1
 " Macvim settings
 set guifont=Menlo\ for\ Powerline:h14
 
+" Enables clipboard sharing with OSX
+set clipboard=unnamed
+
 " Syntastic settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
